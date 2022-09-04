@@ -12,5 +12,7 @@ public class HelloController {
     @ResponseBody
     public String hello(){
         return "EveryBody Hello!";
+        return "EveryBody Hello!";
+        return "EveryBody Hello!";
     }
 }
