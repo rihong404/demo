@@ -11,6 +11,7 @@ public class HelloController {
     @RequestMapping("/say")
     @ResponseBody
     public String hello(){
+        String t = "1231233";
         return "EveryBody Hello!";
     }
 }
